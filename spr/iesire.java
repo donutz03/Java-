@@ -1,3 +1,4 @@
+/*
 ###
 POST http://localhost:8080/add?first=Homer&last=Simpson
 
@@ -25,4 +26,21 @@ Date: Thu, 28 May 2020 08:23:05 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
-p[]
+[
+    {
+        "id": 1,
+        "firstName": "Homer",
+        "lastName": "Simpson"
+    }
+]
+
+Response code: 200; Time: 171ms; Content length: 51 bytes
+
+###
+GET http://localhost:8080/find/1
+
+
+
+
+
+ */
